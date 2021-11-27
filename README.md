@@ -16,7 +16,7 @@ https://github.com/canarytxt/
 
 # Internet draft
 
-The Internet draft for canary.txt can be found here: https://tools.ietf.org/html/draft-foudil-canarytxt.
+The Internet draft for canary.txt is under development https://github.com/canarytxt/canarytxt.org/issues/4.
 
 # Building the Draft
 
