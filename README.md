@@ -20,7 +20,13 @@ The Internet draft for canary.txt is under development https://github.com/canary
 
 # Building the Draft
 
-To build the text and HTML drafts, use the following make command.
+To build the text and HTML drafts, press the button
+
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/canarytxt/canary-txt)
+
+
+Or use the following make command.
 
 ```sh
 $ make clean
