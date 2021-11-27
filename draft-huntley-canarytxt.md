@@ -1,7 +1,7 @@
 ---
 title: A File Format to Aid in Security Vulnerability Disclosure
 abbrev: canary.txt
-docname: draft-foudil-canarytxt-13
+docname: draft-huntley-canarytxt-00
 ipr: trust200902
 cat: info
 pi:
@@ -10,13 +10,9 @@ pi:
   symrefs: 'yes'
   toc: 'yes'
 author:
-- ins: E. Foudil
-  name: Edwin Foudil
-  email: contact@edoverflow.com
-- ins: Y. Shafranovich
-  name: Yakov Shafranovich
-  organization: Nightwatch Cybersecurity
-  email: yakov+ietf@nightwatchcybersecurity.com
+- ins: G. Huntley
+  name: Geoffrey Huntley
+  email: ghuntley@ghuntley.com
 
 informative:
     ISO.8601:
