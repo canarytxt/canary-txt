@@ -1,8 +1,6 @@
-<p align="center"><img src=https://avatars2.githubusercontent.com/u/32488600?s=100&v=4></p>
+<p align="center"><img src=https://avatars.githubusercontent.com/u/95122096?s=200&v=4></p>
 
-canary.txt is a proposed standard which allows websites to define security policies. The canary.txt file sets clear guidelines for security researchers on how to report security issues. canary.txt is the equivalent of `robots.txt`, but for security issues.
-
-> “ When security vulnerabilities are discovered by researchers, proper reporting channels are often lacking.  As a result, vulnerabilities may be left unreported.  This document defines a format ("canary.txt") to help organizations describe their vulnerability disclosure practices to make it easier for researchers to report vulnerabilities.”
+canary.txt is a proposed standard which allows websites to define a warrant canary. 
 
 ---
 
