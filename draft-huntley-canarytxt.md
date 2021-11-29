@@ -13,6 +13,9 @@ author:
 - ins: G. Huntley
   name: Geoffrey Huntley
   email: ghuntley@ghuntley.com
+- ins: Z. Heller
+  name: Zach Heller
+  email: zach@zacheller.dev
 
 informative:
     ISO.8601:
@@ -44,6 +47,16 @@ to make it easier for researchers to report vulnerabilities.
 # Introduction
 
 ## Motivation, Prior Work and Scope {#motivation}
+There is currently no formal specification for sites to host a [warrant canary](https://en.wikipedia.org/wiki/Warrant_canary)--a notice to inform users that there has not been a court-issued subpoena as of a certain date. When a warrant canary is then updated, users can assume some subpoena has been issued. There are many different ways warrant canaries have been implemented, and changes to canaries are unstandardized and can be subtle.  
+
+A coalition consisting of the Electronic Frontier Foundation, The Calyx Institute, Freedom of the Press Foundation, The Berkman Center, and the NYU School of Law launched a website called Canary Watch to monitor "warrant canaries" across the web. However, this project ended the next year and is no longer maintained due to "the fact that canaries are non-standard makes it difficult to automatically monitor them for changes or takedowns" ([Canary Watch – One Year Later](https://www.eff.org/deeplinks/2016/05/canary-watch-one-year-later)). 
+
+
+In this document, we define a rich, machine-parsable and extensible way for organizations to communicate the subpoenas they have not received, the rate they publish their warrant canaries, whether a latency period (the time frame the canary covers and the date the canary is posted) exists, and what that latency period is if it does exist.
+
+This document is heavily inspired by the Internet-Draft for "A File Format to Aid in Security Vulnerability Disclosure" that proposes a security.txt file "to help organizations describe their vulnerability disclosure practices to make it easier for researchers to report vulnerabilities".
+
+-----
 
 Many security researchers encounter situations where they are unable
 to report security vulnerabilities to organizations because there are
